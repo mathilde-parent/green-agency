@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'Roboto Condensed';
+	font-size: 20px;
+	color: black;
+}
+h1,h2,h3{
+	font-family: 'Caveat';
+	font-weight: bold;
+} 
+
+a{
+	text-decoration: none;
+	background-color: #B6FFA1;
+	font-family: "Alumni Sans Pinstripe";
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
+	font-weight: bold;
+}
+a:hover{
+	color: #00FF9C;
+}
